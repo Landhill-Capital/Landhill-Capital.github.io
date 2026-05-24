@@ -5,6 +5,7 @@ Landhill Capital is an agile investment company focused on micro-SaaS and AI sta
 ## Portfolio
 - [The Job Copilot](https://thejobcopilot.com/): An AI-powered job search assistant that helps users find and apply for jobs more efficiently.
 - [HuaNest Heritage](https://huanest.com/): A platform that brings travellers closer to the local civilization around the world.
+- [Auto-Page](https://auto-page.com/): An mobile app that automatically loads local news and events based on the user's location, providing a personalized news feed.
 
 ## About this repository
 This repository contains the Landhill Capital website, including a landing page and a Markdown-powered blog. The site is built with Next.js and Tailwind CSS, and is configured for static export and GitHub Pages deployment.
@@ -22,13 +23,19 @@ This repository contains the Landhill Capital website, including a landing page 
 	npm install
 	```
 
-2. Run the development server:
+2. Build the static export:
+
+	```bash
+	npm run build
+	```
+
+3. Run the development server:
 
 	```bash
 	npm run dev
 	```
 
-3. Open http://localhost:3000
+4. Open http://localhost:3000
 
 ## Deployment
 The site is deployed on GitHub Pages. GitHub Actions installs dependencies, builds the Next.js static export (`out/`), and deploys it automatically on pushes to `main`.

@@ -147,17 +147,22 @@ export default function Home() {
             </article>
 
             <article className="card p-5">
-              <span className="inline-block rounded-full bg-[#eef2fb] px-3 py-1 text-xs font-bold tracking-[0.06em] text-[#1d3557] uppercase">
-                Coming Soon
+              <span className="inline-block rounded-full bg-[#e8f3ff] px-3 py-1 text-xs font-bold tracking-[0.06em] text-[#0b4f8a] uppercase">
+                Live Website
               </span>
-              <h3 className="mt-3 text-lg font-semibold">Future Website or Mobile App</h3>
+              <h3 className="mt-3 text-lg font-semibold">Auto-Page</h3>
               <p className="mt-2 text-[#5c677d]">
-                Reserved space for new portfolio additions. We can feature the next
-                company website or mobile app here.
+                A mobile app that automatically loads local news and events based on
+                the user's location, providing a personalized news feed.
               </p>
-              <p className="mt-3 text-sm text-[#5c677d]">
-                Stage: To Be Announced
-              </p>
+              <a
+                className="mt-3 inline-block rounded-lg border border-[#d7dff2] bg-[#f4f6fb] px-3 py-2 text-sm font-semibold text-[#1d3557] transition hover:-translate-y-0.5"
+                href="https://auto-page.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visit Website
+              </a>
             </article>
           </div>
         </div>
