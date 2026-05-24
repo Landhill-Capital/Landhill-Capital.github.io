@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --ink-900: #14213d;
+  --ink-700: #1d3557;
+  --slate-500: #5c677d;
+  --mist-100: #f4f6fb;
+  --sun-500: #fca311;
+  --sun-600: #e89100;
+  --teal-500: #0a9396;
+  --surface: #ffffff;
+}
+
+body {
+  color: var(--ink-900);
+  font-family: "Segoe UI", "Avenir Next", "Trebuchet MS", sans-serif;
+  background:
+    radial-gradient(circle at 10% 10%, #fff5dc 0, transparent 30%),
+    radial-gradient(circle at 90% 20%, #dff4f3 0, transparent 35%),
+    linear-gradient(180deg, #fcfdff 0%, #f4f6fb 100%);
+}
+
+.container-wrap {
+  width: min(1120px, 92vw);
+  margin-inline: auto;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid #dce3f2;
+  border-radius: 0.95rem;
+}
+
+.btn-primary {
+  color: #2b1e00;
+  background: var(--sun-500);
+}
+
+.btn-primary:hover {
+  background: var(--sun-600);
+}
