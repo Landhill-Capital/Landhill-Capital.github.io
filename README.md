@@ -5,7 +5,7 @@ Landhill Capital is an agile investment company focused on micro-SaaS and AI sta
 ## Portfolio
 - [The Job Copilot](https://thejobcopilot.com/): An AI-powered job search assistant that helps users find and apply for jobs more efficiently.
 - [HuaNest Heritage](https://huanest.com/): A platform that brings travellers closer to the local civilization around the world.
-- [Auto-Page](https://auto-page.com/): An mobile app that automatically loads local news and events based on the user's location, providing a personalized news feed.
+- [Auto-Page](https://auto-page.com/): A community that shares new ideas weekly for building micro-SaaS and AI applications.
 
 ## About this repository
 This repository contains the Landhill Capital website, including a landing page and a Markdown-powered blog. The site is built with Next.js and Tailwind CSS, and is configured for static export and GitHub Pages deployment.

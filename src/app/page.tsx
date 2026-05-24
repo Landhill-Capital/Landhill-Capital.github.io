@@ -152,8 +152,8 @@ export default function Home() {
               </span>
               <h3 className="mt-3 text-lg font-semibold">Auto-Page</h3>
               <p className="mt-2 text-[#5c677d]">
-                A mobile app that automatically loads local news and events based on
-                the user's location, providing a personalized news feed.
+                A community that shares new ideas weekly for building micro-SaaS
+                and AI applications.
               </p>
               <a
                 className="mt-3 inline-block rounded-lg border border-[#d7dff2] bg-[#f4f6fb] px-3 py-2 text-sm font-semibold text-[#1d3557] transition hover:-translate-y-0.5"
